@@ -5,8 +5,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import edu.unisabana.pizzafactory.factory.FabricaPizzaIntegral;
-import edu.unisabana.pizzafactory.factory.FabricaPizzaGruesa;
-import edu.unisabana.pizzafactory.factory.FabricaPizzaDelgada;
 import edu.unisabana.pizzafactory.interfaces.Amasador;
 import edu.unisabana.pizzafactory.interfaces.FabricaPizza;
 import edu.unisabana.pizzafactory.interfaces.Horneador;
@@ -19,6 +17,7 @@ import edu.unisabana.pizzafactory.model.Tamano;
  *
  * @author cesarvefe
  */
+@SuppressWarnings("unused")
 public class PreparadorPizza {
 
     private FabricaPizza fabrica;
@@ -29,7 +28,7 @@ public class PreparadorPizza {
 
     public static void main(String args[]) {
         try {
-            FabricaPizza fabrica = new FabricaPizzaGruesa(); // Seleccionar la fábrica
+            FabricaPizza fabrica = new FabricaPizzaIntegral(); // Seleccionar la fábrica
             
             PreparadorPizza pp = new PreparadorPizza(fabrica);
             
