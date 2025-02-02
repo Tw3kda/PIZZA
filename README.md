@@ -11,3 +11,5 @@ Katherin Juliana Moreno Carvajal, Santiago Navarro Cuy y Mariana Salas Gutiérre
 
 ### Pizza Integral
 ![Imagen](https://github.com/Tw3kda/PIZZA/raw/main/PizzaIntegral.png)
+
+*Lo ejecutamos con mvn exec:jav, ya que con mvn exec:java -Dexec.mainClass="edu.unisabana.pizzafactory.consoleview.PreparadorPizza" daba error*
