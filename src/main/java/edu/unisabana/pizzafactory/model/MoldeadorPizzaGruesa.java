@@ -9,20 +9,20 @@ import edu.unisabana.pizzafactory.interfaces.Moldeador;
  *
  * @author cesarvefe
  */
-public class MoldeadorPizzaDelgada implements Moldeador {
+public class MoldeadorPizzaGruesa implements Moldeador {
 
     @Override
     public void moldearPizzaPequena() {
-        Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[O] Moldeando pizza pequeña de masa convencional.");
+        Logger.getLogger(MoldeadorPizzaGruesa.class.getName())
+                .log(Level.INFO, "[O] Moldeando pizza pequeña de masa gruesa.");
         
         // CÓDIGO DE LLAMADO AL MICROCONTROLADOR
     }
 
     @Override
     public void moldearPizzaMediana() {
-        Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[O] Moldeando pizza mediana de masa convencional.");
+        Logger.getLogger(MoldeadorPizzaGruesa.class.getName())
+                .log(Level.INFO, "[O] Moldeando pizza mediana de masa gruesa.");
         
         // CÓDIGO DE LLAMADO AL MICROCONTROLADOR
     }

@@ -9,14 +9,14 @@ import edu.unisabana.pizzafactory.interfaces.Amasador;
  *
  * @author cesarvefe
  */
-public class AmasadorPizzaDelgada  implements Amasador {
+public class AmasadorPizzaIntegral  implements Amasador {
 
     @Override
     public void amasar() {
-        Logger.getLogger(AmasadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[@@] Amasando la pizza delgada con masa convencional.");
+        Logger.getLogger(AmasadorPizzaIntegral.class.getName())
+                .log(Level.INFO, "[@@] Amasando la pizza con masa integral.");
         
         // CÓDIGO DE LLAMADO AL MICROCONTROLADOR
     }
-     
+
 }

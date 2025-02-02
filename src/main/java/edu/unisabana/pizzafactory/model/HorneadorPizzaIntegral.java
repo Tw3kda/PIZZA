@@ -9,12 +9,12 @@ import edu.unisabana.pizzafactory.interfaces.Horneador;
  *
  * @author cesarvefe
  */
-public class HorneadorPizzaDelgada implements Horneador {
+public class HorneadorPizzaIntegral implements Horneador {
 
     @Override
     public void hornear() {
-        Logger.getLogger(HorneadorPizzaDelgada.class.getName())
-            .log(Level.INFO, "[~~] Horneando la pizza delgada con masa convencional.");
+        Logger.getLogger(HorneadorPizzaIntegral.class.getName())
+            .log(Level.INFO, "[~~] Horneando la pizza con masa integral.");
 
         // CÓDIGO DE LLAMADO AL MICROCONTROLADOR
     }
